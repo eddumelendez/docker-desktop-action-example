@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: start_desktop
-        uses: docker/desktop-action/start@v0.1.0
+        uses: docker/desktop-action/start@v0.2.0
       - uses: actions/setup-java@v3
         with:
           java-version: '17'
